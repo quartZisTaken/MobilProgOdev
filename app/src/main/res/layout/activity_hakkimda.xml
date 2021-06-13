@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HakkimdaActivity">
+
+    <TextView
+        android:id="@+id/suan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Öğrenciyim"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gelecek"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <TextView
+        android:id="@+id/gelecek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bilgisayar Mühendisliği"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numarasi"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <TextView
+        android:id="@+id/numarasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numarası : 191030038"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soyadi"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <TextView
+        android:id="@+id/soyadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soyadı : ŞİŞMANOĞLU"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adi"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <TextView
+        android:id="@+id/adi"
+        android:layout_width="122dp"
+        android:layout_height="25dp"
+        android:text="Adı : Emirhan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.156" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="412dp"
+        android:layout_height="199dp"
+        android:src="@drawable/pp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.276" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
